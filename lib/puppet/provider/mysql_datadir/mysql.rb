@@ -13,6 +13,8 @@ Puppet::Type.type(:mysql_datadir).provide(:mysql, parent: Puppet::Provider::Mysq
     '/opt/rh/rh-mysql57/root/usr/libexec',
     '/opt/rh/rh-mysql56/root/usr/bin',
     '/opt/rh/rh-mysql56/root/usr/libexec',
+    '/opt/rh/rh-mariadb102/root/usr/bin',
+    '/opt/rh/rh-mariadb102/root/usr/libexec',
     '/opt/rh/rh-mariadb101/root/usr/bin',
     '/opt/rh/rh-mariadb101/root/usr/libexec',
     '/opt/rh/rh-mariadb100/root/usr/bin',
